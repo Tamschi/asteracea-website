@@ -2,9 +2,7 @@ use asteracea::bumpalo::Bump;
 use asteracea_website::site::Site;
 use lignin_html::render_document;
 use rhizome::Node;
-use std::thread;
-use std::time::Instant;
-use std::{pin::Pin, sync::Arc};
+use std::{pin::Pin, sync::Arc, thread, time::Instant};
 use tiny_http::{Response, Server};
 
 fn main() {
