@@ -11,7 +11,7 @@ checksum = "bbf56136a5198c7b01a49e3afcbef6cf84597273d298f54432926024107b0109"
 [[package]]
 name = "asteracea"
 version = "0.0.2"
-source = "git+https://github.com/Tamschi/Asteracea.git?branch=develop#720d92e41edfb1b4f5e6c1f36c69ed91c13b3d82"
+source = "git+https://github.com/Tamschi/Asteracea.git?branch=develop#59692c11e5eb919b9288138df02866d5c080ceaf"
 dependencies = [
  "asteracea_proc-macro-definitions",
  "bumpalo",
@@ -44,7 +44,7 @@ dependencies = [
 [[package]]
 name = "asteracea_proc-macro-definitions"
 version = "0.0.2"
-source = "git+https://github.com/Tamschi/Asteracea.git?branch=develop#720d92e41edfb1b4f5e6c1f36c69ed91c13b3d82"
+source = "git+https://github.com/Tamschi/Asteracea.git?branch=develop#59692c11e5eb919b9288138df02866d5c080ceaf"
 dependencies = [
  "call2-for-syn",
  "debugless-unwrap",
