@@ -33,6 +33,7 @@ maintenance = { status = "experimental" } # This may differ between branches.
 [dependencies]
 asteracea = { git = "https://github.com/Tamschi/Asteracea.git", branch = "develop" }
 lignin-html = { git = "https://github.com/Tamschi/lignin-html.git", branch = "develop" }
+log = "0.4.4" # Minimal versions workaround for tiny_http.
 num_cpus = "1.13.1"
 rhizome = { git = "https://github.com/Tamschi/rhizome.git", branch = "develop" }
 tiny_http = "0.11.0"
