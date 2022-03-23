@@ -4,7 +4,7 @@
 [![Crates.io](https://img.shields.io/crates/v/asteracea-website)](https://crates.io/crates/asteracea-website)
 [![Docs.rs](https://docs.rs/asteracea-website/badge.svg)](https://docs.rs/asteracea-website)
 
-![Rust 1.56](https://img.shields.io/static/v1?logo=Rust&label=&message=1.56&color=grey)
+![Rust 1.57](https://img.shields.io/static/v1?logo=Rust&label=&message=1.57&color=grey)
 [![CI](https://github.com/Tamschi/asteracea-website/workflows/CI/badge.svg?branch=develop)](https://github.com/Tamschi/asteracea-website/actions?query=workflow%3ACI+branch%3Adevelop)
 ![Crates.io - License](https://img.shields.io/crates/l/asteracea-website/0.0.1)
 
