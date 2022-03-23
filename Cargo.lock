@@ -41,7 +41,6 @@ dependencies = [
  "git_info",
  "lignin 0.1.0 (git+https://github.com/Tamschi/lignin.git?branch=develop)",
  "lignin-html",
- "log",
  "num_cpus",
  "rhizome",
  "tiny_http",
