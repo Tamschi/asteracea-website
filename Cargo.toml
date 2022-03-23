@@ -35,7 +35,7 @@ asteracea = { git = "https://github.com/Tamschi/Asteracea.git", branch = "develo
 lignin-html = { git = "https://github.com/Tamschi/lignin-html.git", branch = "develop" }
 num_cpus = "1.13.1"
 rhizome = { git = "https://github.com/Tamschi/rhizome.git", branch = "develop" }
-tiny_http = "0.10.0"
+tiny_http = "0.11.0"
 typed-builder = "0.10.0"
 
 [dev-dependencies]
