@@ -34,7 +34,7 @@ maintenance = { status = "experimental" } # This may differ between branches.
 asteracea = { git = "https://github.com/Tamschi/Asteracea.git", branch = "develop" }
 lignin-html = { git = "https://github.com/Tamschi/lignin-html.git", branch = "develop" }
 num_cpus = "1.13.1"
-rhizome = "0.0.1"
+rhizome = { git = "https://github.com/Tamschi/rhizome.git", branch = "develop" }
 tiny_http = "0.10.0"
 typed-builder = "0.10.0"
 

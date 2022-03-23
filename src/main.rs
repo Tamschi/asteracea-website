@@ -1,8 +1,8 @@
 use asteracea::bumpalo::Bump;
 use asteracea_website::site::Site;
 use lignin_html::render_document;
-use rhizome::Node;
-use std::{pin::Pin, sync::Arc, thread, time::Instant};
+use rhizome::sync::Node;
+use std::{any::TypeId, pin::Pin, sync::Arc, thread, time::Instant};
 use tiny_http::{Response, Server};
 
 fn main() {
@@ -13,7 +13,7 @@ fn main() {
 	for _ in 0..num_cpus::get() * 2 - 2 {
 		let server = Arc::clone(&server);
 		handles.push(thread::spawn(move || {
-			let root_node = Node::new_for::<()>().into_arc();
+			let root_node = Node::new(TypeId::of::<()>());
 			let mut bump = Bump::new();
 			let mut body = String::new();
 			for rq in server.incoming_requests() {
@@ -21,7 +21,7 @@ fn main() {
 
 				// Instantiate page.
 				let construction_time = Instant::now();
-				let site = Site::new(&root_node, Site::new_args_builder().build())
+				let site = Site::new(root_node.as_ref(), Site::new_args_builder().build())
 					.expect("Error instantiating site.");
 				let construction_time = Instant::now() - construction_time;
 				let site = unsafe { Pin::new_unchecked(&site) };
