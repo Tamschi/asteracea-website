@@ -289,7 +289,7 @@ checksum = "fac24f5e1ecf47470f0ff28d4ecc3f177f668457798143bde944df0a9498f0d7"
 [[package]]
 name = "lignin"
 version = "0.1.0"
-source = "git+https://github.com/Tamschi/lignin.git?branch=develop#3786f2931faae36c0691aebd77d975b7988cddf9"
+source = "git+https://github.com/Tamschi/lignin.git?branch=develop#f0835be70ad9becc8f0ec1de9f4451a59ec9e1c4"
 dependencies = [
  "lazy_static",
  "wasm-bindgen",
