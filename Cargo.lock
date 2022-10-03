@@ -17,7 +17,7 @@ checksum = "bbf56136a5198c7b01a49e3afcbef6cf84597273d298f54432926024107b0109"
 [[package]]
 name = "asteracea"
 version = "0.0.2"
-source = "git+https://github.com/Tamschi/Asteracea.git?branch=develop#745eec5adad6865e38f1b699a2444da2bdf17f75"
+source = "git+https://github.com/Tamschi/Asteracea.git?branch=develop#1c8c410372c18fd529488fdc93708b1af4c168c0"
 dependencies = [
  "asteracea_proc-macro-definitions",
  "bumpalo",
@@ -29,7 +29,7 @@ dependencies = [
  "static_assertions",
  "tiptoe",
  "try-lazy-init",
- "typed-builder 0.9.1",
+ "typed-builder",
 ]
 
 [[package]]
@@ -45,7 +45,7 @@ dependencies = [
  "num_cpus",
  "rhizome",
  "tiny_http",
- "typed-builder 0.10.0",
+ "typed-builder",
  "version-sync",
  "wasm-bindgen-test",
 ]
@@ -53,7 +53,7 @@ dependencies = [
 [[package]]
 name = "asteracea_proc-macro-definitions"
 version = "0.0.2"
-source = "git+https://github.com/Tamschi/Asteracea.git?branch=develop#745eec5adad6865e38f1b699a2444da2bdf17f75"
+source = "git+https://github.com/Tamschi/Asteracea.git?branch=develop#1c8c410372c18fd529488fdc93708b1af4c168c0"
 dependencies = [
  "call2-for-syn",
  "debugless-unwrap",
@@ -539,7 +539,7 @@ checksum = "f497285884f3fcff424ffc933e56d7cbca511def0c9831a7f9b5f6153e3cc89b"
 [[package]]
 name = "rhizome"
 version = "0.0.1"
-source = "git+https://github.com/Tamschi/rhizome.git?branch=develop#a566bc0ebc3fc75214dcacb08f4d26166b5518c1"
+source = "git+https://github.com/Tamschi/rhizome.git?branch=develop#1d0b924dc74b361176032770a18bedf708d6303d"
 dependencies = [
  "fruit-salad",
  "pin-project",
@@ -760,17 +760,6 @@ name = "typed-arena"
 version = "2.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0685c84d5d54d1c26f7d3eb96cd41550adb97baed141a761cf335d3d33bcd0ae"
-
-[[package]]
-name = "typed-builder"
-version = "0.9.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a46ee5bd706ff79131be9c94e7edcb82b703c487766a114434e5790361cf08c5"
-dependencies = [
- "proc-macro2",
- "quote",
- "syn",
-]
 
 [[package]]
 name = "typed-builder"
