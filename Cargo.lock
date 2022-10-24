@@ -299,7 +299,7 @@ dependencies = [
 [[package]]
 name = "lignin-html"
 version = "0.0.5"
-source = "git+https://github.com/Tamschi/lignin-html.git?branch=develop#471bb158f1348840947a8c81ec1acf1594c88b1a"
+source = "git+https://github.com/Tamschi/lignin-html.git?branch=develop#bf163dd5585d3947dd7f537cd54177d1540a765f"
 dependencies = [
  "lignin 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "logos",
